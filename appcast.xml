@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="[http://www.andymatuschak.org/xml-namespaces/sparkle](http://www.andymatuschak.org/xml-namespaces/sparkle)">
+    <channel>
+        <title>Pegger App Update</title>
+        <item>
+            <title>Version 2.0</title>
+            <description>
+                <![CDATA[
+                    <ul>
+                        <li>New feature: Added a new thing.</li>
+                        <li>Fixed: A bug that was annoying.</li>
+                        <li>Improved: Performance is now better.</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 3 Oct 2025 10:00:00 +0000</pubDate>
+            <enclosure
+                url="[https://your-website.com/downloads/Pegger-2.0.zip](https://your-website.com/downloads/Pegger-2.0.zip)"
+                sparkle:version="2"
+                sparkle:shortVersionString="2.0"
+                length="1234567"
+                type="application/octet-stream"
+                sparkle:edSignature="YOUR_SIGNATURE_GOES_HERE_FROM_STEP_5"
+            />
+        </item>
+    </channel>
+</rss>
